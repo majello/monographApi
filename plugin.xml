@@ -1,0 +1,23 @@
+<plugin name='monograph-api' version='0.1' grailsVersion='1.3.6 &gt; *'>
+  <author>Stefan Marte</author>
+  <title>generic API support</title>
+  <description>\
+Brief description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/monograph-api</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>MonographApiUrlMappings</resource>
+    <resource>UrlMappings</resource>
+    <resource>monographApi.ApiController</resource>
+    <resource>monographApi.ApiService</resource>
+    <resource>monographApi.MetaService</resource>
+    <resource>monographApi.ProxyService</resource>
+    <resource>monographApi.QueryService</resource>
+    <resource>monographApi.ApiSpecification</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
